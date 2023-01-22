@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #2b134b;
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.img-Logo {
+    height: 72px;
+}
+
+.cabeçalho-MENU {
+    display: flex;
+    gap: 32px;
+}
+
+.item-MENU {
+    color: #00ff88;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.item-MENU:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid white;
+}
+
+.conteudo-SITE {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Destaques-SITE {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.Titulo-SITE {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #00ff88;
+}
+
+.SubTitulo-SITE {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+
+.botão-SITE {
+    background-color: #00ff88;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;    
+}
+
+.botão-SITE:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.img-BalleBot {
+    height: 400px; 
+}
+
+.conteudo-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.Subtit-2 {
+    padding-top: 48px;
+    border-top: 0.4px solid white;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #00ff88;
+    margin-bottom: 16px;
+}
+
+.paragafro {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6CA;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid white;
+}
+
+.foto-rodapé {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
